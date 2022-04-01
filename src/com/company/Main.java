@@ -1,8 +1,7 @@
 package com.company;
 
 public class Main {
-        public static double sqr(double arg) {
-            return "hello!";
-        }
+    public static double sqr(double arg) {
     }
-//Другой тип.incompatible types: java.lang.String cannot be converted to double
+}
+//Нет возврата. missing return statement
