@@ -2,6 +2,7 @@ package com.company;
 
 public class Main {
     public double sqr(double arg) { // надо double
-        return arg * arg;           // double * double - это double
+        int k = 1;                  // есть int
+        return k;                   // можно неявно преобразовать int в double
     }
 }
