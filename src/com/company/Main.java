@@ -2,15 +2,10 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        f(null);
-    }
-    public static void f(NullPointerException e) {
-        try {
-            throw e;
-        } catch (NullPointerException npe) {
-            f(npe);
-        }
+        System.out.println("sout");
+        throw new Error();
     }
 }
-//Передавая null, и, вызывая NullPointerException, ловим его catch. Затем снова вызываем этот метод передавая ему NullPointerException.
-//В резултате стек переполняется. Exception in thread "main" java.lang.StackOverflowError
+//сли выводим сообщение в System.out, то на это тратится каке-то время для буферизации,
+// а , если, в System.err, то сообщение сразу выводится в консоль,
+// из-за чего System.err может обогнать System.out
