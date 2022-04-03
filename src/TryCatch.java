@@ -1,5 +1,5 @@
-
-public class TryCatch {
+//
+//public class TryCatch {
 
 ////catch по типу Parent перехватывает летящие экземпляры любого типа, который является Parent-ом
 //    public static void main(String[] args) {
