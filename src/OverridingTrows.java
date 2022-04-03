@@ -77,3 +77,21 @@ import java.io.IOException;
 //    }
 //}
 ////
+//public static void main(String[] args) {
+//    Demo.test(new Child()); }
+//    public class Parent {
+//        // предок пугает Exception
+//        public void f() throws Exception {
+//        }
+//    }
+//
+//    public class Demo {
+//        public static void test(Parent ref) {
+//            // тут все компилируется, Parent.f() пугает Exception и мы его ловим catch
+//            try {
+//                ref.f();
+//            } catch (Exception e) {
+//            }
+//        }
+//    }
+//}
